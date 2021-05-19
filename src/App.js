@@ -1,5 +1,6 @@
 import "./App.css";
 import Cards from "./components/card/cards";
+import { componente1 } from "./components/componente1";
 import Contenedores from "./components/contenedor/contenedores";
 import Footer from "./components/footer/Footer";
 import Imac from "./components/imac/Imac";
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Nav></Nav>
+      <componente1></componente1>
       <Contenedores></Contenedores>
       <Ipad></Ipad>
       <Imac></Imac>

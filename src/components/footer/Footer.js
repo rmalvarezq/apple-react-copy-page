@@ -26,127 +26,70 @@ export default function Footer() {
           en dólares estadounidenses y pueden variar por país. Se requiere una
           tarjeta de crédito internacional para completar la suscripción.
         </p>
-      </div>
-      <hr></hr>
-      <div className="row">
-        <h2>Descubrir</h2>
-        <ul>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-        </ul>
-        <h2>Descubrir</h2>
-        <ul>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-        </ul>
-        <h2>Descubrir</h2>
-        <ul>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-        </ul>
-        <h2>Descubrir</h2>
-        <ul>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-          <li>
-            <a href="www.google.com">Mac</a>
-          </li>
-        </ul>
-      </div>
-      <a href="./">Busca un distribuidor cerca de ti.</a>
-      <hr></hr>
-      <div className="row">
-        <p>Copyright © 2021 Apple Inc. Todos los derechos reservados.</p>
-        <a href="./">Política de privacidad</a>
-        <a href="./">Aviso legal</a>
-        <a href="./">Mapa del sitio</a>
-        <a href="./">América Latina y el Caribe</a>
-        <a href="./">English</a>
+        <div className="row">
+          <div className="column">
+            <h2>Para la empresa</h2>
+            <a href="./">Mac</a>
+            <a href="./">iPad</a>
+            <a href="./">iPhone</a>
+            <a href="./">Watch</a>
+            <a href="./">TV</a>
+            <a href="./">Music</a>
+            <a href="./">AirPods</a>
+            <a href="./">iPhod touch</a>
+          </div>
+
+          <div className="column">
+            <h2>Servicios</h2>
+            <a href="./">Apple Music</a>
+            <a href="./">Apple Watch</a>
+            <a href="./">Apple Arcade</a>
+            <a href="./">iCloud</a>
+            <a href="./">Apple One</a>
+            <a href="./">Apple Books</a>
+            <a href="./">App Store</a>
+          </div>
+          <div className="column">
+            <h2>Acerca de Apple</h2>
+            <a href="./">Newsroom</a>
+            <a href="./">Directivos de Apple</a>
+            <a href="./">Oportunidades de empleo</a>
+            <a href="./">Inversionistas</a>
+            <a href="./">Ética y cumplimiento de políticas</a>
+            <a href="./">Eventos</a>
+            <a href="./">Contactar a Apple</a>
+          </div>
+          <div className="column">
+            <h2>Valores de Apple</h2>
+            <a href="./">Accesibilidad</a>
+            <a href="./">Medio Ambiente</a>
+            <a href="./">Privacidad</a>
+          </div>
+          <div className="column">
+            <h2>Cuenta</h2>
+            <a href="./">Administrar tu Apple ID</a>
+            <a href="./">iCloud.com</a>
+          </div>
+          <div className="column">
+            <h2>Para la empresa</h2>
+            <a href="./">Apple y la empresa</a>
+          </div>
+        </div>
+        <div className="row1">
+          <a href="./">
+            <p id="color-p-footer">Busca un distribuidor</p>
+          </a>
+        </div>
+        <div>
+          <div className="row2">
+            <p>Copyright © 2021 Apple Inc. Todos los derechos reservados.</p>
+            <a href="./">Política de privacidad</a>
+            <a href="./">Aviso legal</a>
+            <a href="./">Mapa del sitio</a>
+            <a href="./">América Latina y el Caribe</a>
+            <a href="./">English</a>
+          </div>
+        </div>
       </div>
     </footer>
   );

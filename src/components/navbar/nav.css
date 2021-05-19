@@ -5,9 +5,7 @@
   /* background-color: black; */
   display: block;
   overflow: hidden;
-  position: fixed;
-
-
+  /* position: fixed; */
 }
 .list {
   display: flex;
@@ -20,21 +18,21 @@
   letter-spacing: normal;
   font-size: 17px;
 }
-.item {
-  box-sizing: border-box;
-  display: inline-block;
-  position: relative;
-}
-.logo {
-  width: 19px;
-  height: 19px;
-}
-a {
-  color: #ADACAE;
-  font-size: 0.82em;
-  font-family: inherit;
-  text-decoration: none;
-  position: relative;
-  -webkit-tap-highlight-color: transparent;
-  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
-}
+  .item {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+  }
+  .logo {
+    width: 19px;
+    height: 19px;
+  }
+  a {
+    color: #ADACAE;
+    font-size: 0.82em;
+    font-family: inherit;
+    text-decoration: none;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  }

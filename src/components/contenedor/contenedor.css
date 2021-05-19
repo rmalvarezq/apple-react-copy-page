@@ -19,6 +19,10 @@ h3 {
 h2 {
   margin: 0;
 }
+.info:hover {
+  text-decoration: underline;
+cursor: pointer;
+}
 .subhead {
   font-size: 28px;
   line-height: 1;

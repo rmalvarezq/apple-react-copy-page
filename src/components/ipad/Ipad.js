@@ -4,7 +4,9 @@ export default function Ipad() {
   return (
     <div className="container-ipad">
       <div className="ipad-content">
-        <h1 className="headline"  style={{ color: "white" }}>iPad Pro</h1>
+        <h1 className="headline" style={{ color: "white" }}>
+          iPad Pro
+        </h1>
         <h2 className="subhead" style={{ color: "white" }}>
           Con los superpoderes del chip M1 de Apple.
         </h2>
@@ -13,7 +15,7 @@ export default function Ipad() {
         </h3>
         <h2 className="info">
           Más información
-          <i class="material-icons">chevron_right</i>
+          <span class="material-icons-outlined">arrow_forward_ios</span>
         </h2>
       </div>
       <img
