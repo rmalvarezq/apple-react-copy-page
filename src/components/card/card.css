@@ -1,0 +1,38 @@
+.card-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  margin: 5px auto 5px;
+}
+.card-wrapper {
+  background-color: black;
+  width: 49%;
+  margin: -30px auto  2px;
+  display: flex;
+  flex-direction: row;
+  border: white 10px solid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.watch {
+  width: 250px;
+  height: 250px;
+  margin: 60px auto -2px;
+}
+.iphone-pro{
+    width: 250px;
+    height: 250px;
+    margin: 60px auto -50px; 
+}
+.icon-logo {
+  width: 40px;
+  height: 40px;
+}
+
+h4 {
+  color: #aa1922;
+  margin-top: -20px;
+  line-height: 0;
+}

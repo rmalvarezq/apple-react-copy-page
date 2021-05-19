@@ -1,0 +1,33 @@
+.container-ipad {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin-bottom: 15px;
+}
+#color-title {
+  color: #f5f5f7;
+  
+
+}
+.texto {
+  color: #F5F5F7;
+  margin: 70px 0 10px;
+  font-size: 50px;
+  line-height: 0;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  /* font-family: "Source Sans Pro", sans-serif; */
+}
+#color {
+  color: #5d5d60;
+  margin-top: 20px;
+}
+.ipad-content {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+#color-watch {
+  color: #f5f5f7;
+}

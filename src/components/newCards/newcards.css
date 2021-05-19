@@ -1,0 +1,30 @@
+.newcard {
+  background-color: #fbfdfd;
+  width: 50%;
+  margin-top: -30px;
+  margin-bottom: -2px;
+  /* margin-left: -10px; */
+  margin-right: 0px;
+  display: flex;
+  flex-direction: row;
+  border: white 10px solid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+#color-airtag {
+  color: #000000;
+}
+#img-airtag {
+  width: 300px;
+  height: 400px;
+}
+#img-arcade {
+  width: 600px;
+  height: 400px;
+}
+sup {
+  font-size: 10px;
+  margin-top: -10px;
+}
